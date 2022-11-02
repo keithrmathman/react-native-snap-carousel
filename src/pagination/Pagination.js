@@ -15,16 +15,16 @@ export default class Pagination extends PureComponent {
         dotsLength: PropTypes.number.isRequired,
         activeOpacity: PropTypes.number,
         carouselRef: PropTypes.object,
-        containerStyle: stylePropType
+        containerStyle: stylePropType,
         dotColor: PropTypes.string,
-        dotContainerStyle: stylePropType
+        dotContainerStyle: stylePropType,
         dotElement: PropTypes.element,
-        dotStyle: stylePropType
+        dotStyle: stylePropType,
         inactiveDotColor: PropTypes.string,
         inactiveDotElement: PropTypes.element,
         inactiveDotOpacity: PropTypes.number,
         inactiveDotScale: PropTypes.number,
-        inactiveDotStyle: stylePropType
+        inactiveDotStyle: stylePropType,
         renderDots: PropTypes.func,
         tappableDots: PropTypes.bool,
         vertical: PropTypes.bool,
