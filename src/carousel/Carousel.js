@@ -44,8 +44,8 @@ export default class Carousel extends Component {
         autoplayDelay: PropTypes.number,
         autoplayInterval: PropTypes.number,
         callbackOffsetMargin: PropTypes.number,
-        containerCustomStyle: stylePropType
-        contentContainerCustomStyle: stylePropType
+        containerCustomStyle: stylePropType,
+        contentContainerCustomStyle: stylePropType,
         enableMomentum: PropTypes.bool,
         enableSnap: PropTypes.bool,
         firstItem: PropTypes.number,
@@ -62,7 +62,7 @@ export default class Carousel extends Component {
         scrollEnabled: PropTypes.bool,
         scrollInterpolator: PropTypes.func,
         slideInterpolatedStyle: PropTypes.func,
-        slideStyle: stylePropType
+        slideStyle: stylePropType,
         shouldOptimizeUpdates: PropTypes.bool,
         swipeThreshold: PropTypes.number,
         useScrollView: PropTypes.oneOfType([PropTypes.bool, PropTypes.func]),
